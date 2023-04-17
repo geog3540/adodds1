@@ -1,0 +1,3241 @@
+{
+  "projectName": "test project",
+  "date": "04/16/2023",
+  "onlineBaseMapSettings": {
+    "baseMap": "esriLightGray",
+    "projection": "abEqAreaSthAm",
+    "ifDisplayReferences": false,
+    "baseMapOpacity": "100",
+    "ifAddTitle": true,
+    "title": "Migration in Peru",
+    "ifAddNorthArrow": true,
+    "ifAddProjectionLabel": true,
+    "ifUploadReferences": false,
+    "description": "Map Description",
+    "ifAddDescription": false,
+    "titleColor": "#000000",
+    "titleSize": "34",
+    "referenceField": "14",
+    "labelFontSize": "10",
+    "refRadius": "1",
+    "refColor": "#7d7d7d",
+    "refOpacity": 80,
+    "ifRefTop": false
+  },
+  "selfDesignedBaseMapSettings": {
+    "cfMethod": "Quantile",
+    "clrScheme": "Greens",
+    "minCustomColor": "#000000",
+    "maxCustomColor": "#000000",
+    "ifFlipColor": false,
+    "decimalPlaces": "0",
+    "clsNum": "5",
+    "fillOpacity": "60",
+    "strokeColor": "#000000",
+    "strokeWidth": 0.5,
+    "legendTitle": "Flows Legend",
+    "breakInput": "",
+    "ifHideNull": false
+  },
+  "pointMapFileSettings": {
+    "id": "IPUMSID",
+    "X": "POINT_X",
+    "Y": "POINT_Y",
+    "volume": "IPUMSID",
+    "ifMapAttribute": false,
+    "cfMethod": "Proportional",
+    "clsNum": 5,
+    "clrScheme": "Black",
+    "minCustomColor": "#000000",
+    "maxCustomColor": "#000000",
+    "noAttrFillColor": "#c2c2c2",
+    "fillOpacity": "75",
+    "radiusMin": 2,
+    "radiusMax": 20,
+    "strokeColor": "#000000",
+    "ifFlipColor": false,
+    "strokeWidth": 0.3,
+    "decimalPlaces": 0,
+    "legendTitle": "Node Legend",
+    "breakInput": "",
+    "isDisplayedAsAbs": false,
+    "titleWidth": 200
+  },
+  "pointData": [
+    {
+      "IPUMSID": "1",
+      "POINT_X": "-78.05017218340",
+      "POINT_Y": "-5.07725286389",
+      "ISO": "PER"
+    },
+    {
+      "IPUMSID": "2",
+      "POINT_X": "-77.67179524500",
+      "POINT_Y": "-9.40712494987",
+      "ISO": "PER"
+    },
+    {
+      "IPUMSID": "3",
+      "POINT_X": "-72.97537806530",
+      "POINT_Y": "-14.02771348290",
+      "ISO": "PER"
+    },
+    {
+      "IPUMSID": "4",
+      "POINT_X": "-72.47553940440",
+      "POINT_Y": "-15.84352374540",
+      "ISO": "PER"
+    },
+    {
+      "IPUMSID": "5",
+      "POINT_X": "-74.08343953320",
+      "POINT_Y": "-14.09164833400",
+      "ISO": "PER"
+    },
+    {
+      "IPUMSID": "6",
+      "POINT_X": "-78.74559581450",
+      "POINT_Y": "-6.43028352414",
+      "ISO": "PER"
+    },
+    {
+      "IPUMSID": "7",
+      "POINT_X": "-69.75730773620",
+      "POINT_Y": "-15.68030892580",
+      "ISO": "PER"
+    },
+    {
+      "IPUMSID": "8",
+      "POINT_X": "-72.15360886300",
+      "POINT_Y": "-13.19106820630",
+      "ISO": "PER"
+    },
+    {
+      "IPUMSID": "9",
+      "POINT_X": "-75.00276985030",
+      "POINT_Y": "-13.02388757940",
+      "ISO": "PER"
+    },
+    {
+      "IPUMSID": "10",
+      "POINT_X": "-76.04064200600",
+      "POINT_Y": "-9.42167560288",
+      "ISO": "PER"
+    },
+    {
+      "IPUMSID": "11",
+      "POINT_X": "-75.57482117190",
+      "POINT_Y": "-14.23509722960",
+      "ISO": "PER"
+    },
+    {
+      "IPUMSID": "12",
+      "POINT_X": "-74.87696792280",
+      "POINT_Y": "-11.54178272560",
+      "ISO": "PER"
+    },
+    {
+      "IPUMSID": "13",
+      "POINT_X": "-78.37023831330",
+      "POINT_Y": "-7.92139022001",
+      "ISO": "PER"
+    },
+    {
+      "IPUMSID": "14",
+      "POINT_X": "-79.82411326220",
+      "POINT_Y": "-6.35304918105",
+      "ISO": "PER"
+    },
+    {
+      "IPUMSID": "15",
+      "POINT_X": "-76.62769784370",
+      "POINT_Y": "-11.78596372970",
+      "ISO": "PER"
+    },
+    {
+      "IPUMSID": "16",
+      "POINT_X": "-74.42411545750",
+      "POINT_Y": "-4.12484685427",
+      "ISO": "PER"
+    },
+    {
+      "IPUMSID": "17",
+      "POINT_X": "-70.53171957280",
+      "POINT_Y": "-11.97269887770",
+      "ISO": "PER"
+    },
+    {
+      "IPUMSID": "18",
+      "POINT_X": "-70.83904630840",
+      "POINT_Y": "-16.86027058990",
+      "ISO": "PER"
+    },
+    {
+      "IPUMSID": "19",
+      "POINT_X": "-75.30763472320",
+      "POINT_Y": "-10.39655006570",
+      "ISO": "PER"
+    },
+    {
+      "IPUMSID": "20",
+      "POINT_X": "-80.33586070870",
+      "POINT_Y": "-5.13336099010",
+      "ISO": "PER"
+    },
+    {
+      "IPUMSID": "21",
+      "POINT_X": "-69.95307962140",
+      "POINT_Y": "-14.93333916690",
+      "ISO": "PER"
+    },
+    {
+      "IPUMSID": "22",
+      "POINT_X": "-76.72912743220",
+      "POINT_Y": "-7.03953061523",
+      "ISO": "PER"
+    },
+    {
+      "IPUMSID": "23",
+      "POINT_X": "-70.27755983590",
+      "POINT_Y": "-17.64416077370",
+      "ISO": "PER"
+    },
+    {
+      "IPUMSID": "24",
+      "POINT_X": "-80.54525512090",
+      "POINT_Y": "-3.85749608093",
+      "ISO": "PER"
+    },
+    {
+      "IPUMSID": "25",
+      "POINT_X": "-73.44492864710",
+      "POINT_Y": "-9.62171778188",
+      "ISO": "PER"
+    }
+  ],
+  "flowMapFileSettings": {
+    "origin": "NODEI",
+    "destination": "NODEJ",
+    "volume": "PrdMIG",
+    "flowStyleName": "curve",
+    "cfMethod": "Quantile",
+    "clrScheme": "PRGn",
+    "minCustomColor": "#000000",
+    "maxCustomColor": "#000000",
+    "fillOpacity": "100",
+    "ifFlipColor": false,
+    "decimalPlaces": 0,
+    "clsNum": 4,
+    "numTopFlows": "40",
+    "breakInput": "",
+    "widthMax": 11,
+    "widthMin": 4,
+    "strokeWidth": 0.5,
+    "strokeColor": "#000000",
+    "legendTitle": "Flow Legend",
+    "isDisplayedAsAbs": false,
+    "titleWidth": 200
+  },
+  "flowData": [
+    {
+      "NODEJ": "1",
+      "NODEI": "2",
+      "PrdMIG": "469.0536813"
+    },
+    {
+      "NODEJ": "1",
+      "NODEI": "3",
+      "PrdMIG": "189.7590964"
+    },
+    {
+      "NODEJ": "1",
+      "NODEI": "4",
+      "PrdMIG": "164.8537286"
+    },
+    {
+      "NODEJ": "1",
+      "NODEI": "5",
+      "PrdMIG": "201.6315839"
+    },
+    {
+      "NODEJ": "1",
+      "NODEI": "6",
+      "PrdMIG": "620.4996355"
+    },
+    {
+      "NODEJ": "1",
+      "NODEI": "7",
+      "PrdMIG": "164.5722328"
+    },
+    {
+      "NODEJ": "1",
+      "NODEI": "8",
+      "PrdMIG": "208.1414478"
+    },
+    {
+      "NODEJ": "1",
+      "NODEI": "9",
+      "PrdMIG": "216.9999201"
+    },
+    {
+      "NODEJ": "1",
+      "NODEI": "10",
+      "PrdMIG": "370.1992371"
+    },
+    {
+      "NODEJ": "1",
+      "NODEI": "11",
+      "PrdMIG": "210.22346"
+    },
+    {
+      "NODEJ": "1",
+      "NODEI": "12",
+      "PrdMIG": "267.9385511"
+    },
+    {
+      "NODEJ": "1",
+      "NODEI": "13",
+      "PrdMIG": "545.6228334"
+    },
+    {
+      "NODEJ": "1",
+      "NODEI": "14",
+      "PrdMIG": "563.5231804"
+    },
+    {
+      "NODEJ": "1",
+      "NODEI": "15",
+      "PrdMIG": "885.2457623"
+    },
+    {
+      "NODEJ": "1",
+      "NODEI": "16",
+      "PrdMIG": "377.7550342"
+    },
+    {
+      "NODEJ": "1",
+      "NODEI": "17",
+      "PrdMIG": "150.1738432"
+    },
+    {
+      "NODEJ": "1",
+      "NODEI": "18",
+      "PrdMIG": "92.37969488"
+    },
+    {
+      "NODEJ": "1",
+      "NODEI": "19",
+      "PrdMIG": "255.6269594"
+    },
+    {
+      "NODEJ": "1",
+      "NODEI": "20",
+      "PrdMIG": "824.9415445"
+    },
+    {
+      "NODEJ": "1",
+      "NODEI": "21",
+      "PrdMIG": "104.7122962"
+    },
+    {
+      "NODEJ": "1",
+      "NODEI": "22",
+      "PrdMIG": "409.6008171"
+    },
+    {
+      "NODEJ": "1",
+      "NODEI": "23",
+      "PrdMIG": "76.72110401"
+    },
+    {
+      "NODEJ": "1",
+      "NODEI": "24",
+      "PrdMIG": "387.3072798"
+    },
+    {
+      "NODEJ": "1",
+      "NODEI": "25",
+      "PrdMIG": "224.3183746"
+    },
+    {
+      "NODEJ": "2",
+      "NODEI": "1",
+      "PrdMIG": "1168.974653"
+    },
+    {
+      "NODEJ": "2",
+      "NODEI": "3",
+      "PrdMIG": "855.2962057"
+    },
+    {
+      "NODEJ": "2",
+      "NODEI": "4",
+      "PrdMIG": "758.7694721"
+    },
+    {
+      "NODEJ": "2",
+      "NODEI": "5",
+      "PrdMIG": "938.814136"
+    },
+    {
+      "NODEJ": "2",
+      "NODEI": "6",
+      "PrdMIG": "1341.442671"
+    },
+    {
+      "NODEJ": "2",
+      "NODEI": "7",
+      "PrdMIG": "710.6356457"
+    },
+    {
+      "NODEJ": "2",
+      "NODEI": "8",
+      "PrdMIG": "893.7368701"
+    },
+    {
+      "NODEJ": "2",
+      "NODEI": "9",
+      "PrdMIG": "1019.035442"
+    },
+    {
+      "NODEJ": "2",
+      "NODEI": "10",
+      "PrdMIG": "1544.44727"
+    },
+    {
+      "NODEJ": "2",
+      "NODEI": "11",
+      "PrdMIG": "1014.726622"
+    },
+    {
+      "NODEJ": "2",
+      "NODEI": "12",
+      "PrdMIG": "1202.954559"
+    },
+    {
+      "NODEJ": "2",
+      "NODEI": "13",
+      "PrdMIG": "1744.856261"
+    },
+    {
+      "NODEJ": "2",
+      "NODEI": "14",
+      "PrdMIG": "1234.419329"
+    },
+    {
+      "NODEJ": "2",
+      "NODEI": "15",
+      "PrdMIG": "4286.832136"
+    },
+    {
+      "NODEJ": "2",
+      "NODEI": "16",
+      "PrdMIG": "732.214775"
+    },
+    {
+      "NODEJ": "2",
+      "NODEI": "17",
+      "PrdMIG": "584.7978673"
+    },
+    {
+      "NODEJ": "2",
+      "NODEI": "18",
+      "PrdMIG": "424.6625908"
+    },
+    {
+      "NODEJ": "2",
+      "NODEI": "19",
+      "PrdMIG": "1106.923519"
+    },
+    {
+      "NODEJ": "2",
+      "NODEI": "20",
+      "PrdMIG": "1534.670173"
+    },
+    {
+      "NODEJ": "2",
+      "NODEI": "21",
+      "PrdMIG": "446.0014528"
+    },
+    {
+      "NODEJ": "2",
+      "NODEI": "22",
+      "PrdMIG": "1081.278891"
+    },
+    {
+      "NODEJ": "2",
+      "NODEI": "23",
+      "PrdMIG": "347.0976276"
+    },
+    {
+      "NODEJ": "2",
+      "NODEI": "24",
+      "PrdMIG": "652.5070993"
+    },
+    {
+      "NODEJ": "2",
+      "NODEI": "25",
+      "PrdMIG": "827.1808555"
+    },
+    {
+      "NODEJ": "3",
+      "NODEI": "1",
+      "PrdMIG": "206.9353878"
+    },
+    {
+      "NODEJ": "3",
+      "NODEI": "2",
+      "PrdMIG": "368.164034"
+    },
+    {
+      "NODEJ": "3",
+      "NODEI": "4",
+      "PrdMIG": "718.3202876"
+    },
+    {
+      "NODEJ": "3",
+      "NODEI": "5",
+      "PrdMIG": "719.1250448"
+    },
+    {
+      "NODEJ": "3",
+      "NODEI": "6",
+      "PrdMIG": "224.2319311"
+    },
+    {
+      "NODEJ": "3",
+      "NODEI": "7",
+      "PrdMIG": "683.4125596"
+    },
+    {
+      "NODEJ": "3",
+      "NODEI": "8",
+      "PrdMIG": "751.8970853"
+    },
+    {
+      "NODEJ": "3",
+      "NODEI": "9",
+      "PrdMIG": "551.9500942"
+    },
+    {
+      "NODEJ": "3",
+      "NODEI": "10",
+      "PrdMIG": "361.1874844"
+    },
+    {
+      "NODEJ": "3",
+      "NODEI": "11",
+      "PrdMIG": "584.87344"
+    },
+    {
+      "NODEJ": "3",
+      "NODEI": "12",
+      "PrdMIG": "504.7684724"
+    },
+    {
+      "NODEJ": "3",
+      "NODEI": "13",
+      "PrdMIG": "286.873669"
+    },
+    {
+      "NODEJ": "3",
+      "NODEI": "14",
+      "PrdMIG": "201.6845954"
+    },
+    {
+      "NODEJ": "3",
+      "NODEI": "15",
+      "PrdMIG": "1365.554947"
+    },
+    {
+      "NODEJ": "3",
+      "NODEI": "16",
+      "PrdMIG": "173.0856723"
+    },
+    {
+      "NODEJ": "3",
+      "NODEI": "17",
+      "PrdMIG": "422.5085574"
+    },
+    {
+      "NODEJ": "3",
+      "NODEI": "18",
+      "PrdMIG": "411.8892939"
+    },
+    {
+      "NODEJ": "3",
+      "NODEI": "19",
+      "PrdMIG": "352.7492299"
+    },
+    {
+      "NODEJ": "3",
+      "NODEI": "20",
+      "PrdMIG": "256.3831025"
+    },
+    {
+      "NODEJ": "3",
+      "NODEI": "21",
+      "PrdMIG": "428.2295821"
+    },
+    {
+      "NODEJ": "3",
+      "NODEI": "22",
+      "PrdMIG": "210.0915659"
+    },
+    {
+      "NODEJ": "3",
+      "NODEI": "23",
+      "PrdMIG": "342.095724"
+    },
+    {
+      "NODEJ": "3",
+      "NODEI": "24",
+      "PrdMIG": "110.0611395"
+    },
+    {
+      "NODEJ": "3",
+      "NODEI": "25",
+      "PrdMIG": "319.110996"
+    },
+    {
+      "NODEJ": "4",
+      "NODEI": "1",
+      "PrdMIG": "445.8852163"
+    },
+    {
+      "NODEJ": "4",
+      "NODEI": "2",
+      "PrdMIG": "810.1099262"
+    },
+    {
+      "NODEJ": "4",
+      "NODEI": "3",
+      "PrdMIG": "1752.804031"
+    },
+    {
+      "NODEJ": "4",
+      "NODEI": "5",
+      "PrdMIG": "1673.688694"
+    },
+    {
+      "NODEJ": "4",
+      "NODEI": "6",
+      "PrdMIG": "487.646934"
+    },
+    {
+      "NODEJ": "4",
+      "NODEI": "7",
+      "PrdMIG": "2139.069025"
+    },
+    {
+      "NODEJ": "4",
+      "NODEI": "8",
+      "PrdMIG": "1691.964711"
+    },
+    {
+      "NODEJ": "4",
+      "NODEI": "9",
+      "PrdMIG": "1240.271219"
+    },
+    {
+      "NODEJ": "4",
+      "NODEI": "10",
+      "PrdMIG": "780.4888587"
+    },
+    {
+      "NODEJ": "4",
+      "NODEI": "11",
+      "PrdMIG": "1436.750173"
+    },
+    {
+      "NODEJ": "4",
+      "NODEI": "12",
+      "PrdMIG": "1092.841403"
+    },
+    {
+      "NODEJ": "4",
+      "NODEI": "13",
+      "PrdMIG": "627.6311353"
+    },
+    {
+      "NODEJ": "4",
+      "NODEI": "14",
+      "PrdMIG": "441.9983617"
+    },
+    {
+      "NODEJ": "4",
+      "NODEI": "15",
+      "PrdMIG": "3073.28133"
+    },
+    {
+      "NODEJ": "4",
+      "NODEI": "16",
+      "PrdMIG": "370.7288244"
+    },
+    {
+      "NODEJ": "4",
+      "NODEI": "17",
+      "PrdMIG": "998.0951919"
+    },
+    {
+      "NODEJ": "4",
+      "NODEI": "18",
+      "PrdMIG": "1424.48353"
+    },
+    {
+      "NODEJ": "4",
+      "NODEI": "19",
+      "PrdMIG": "760.9543656"
+    },
+    {
+      "NODEJ": "4",
+      "NODEI": "20",
+      "PrdMIG": "550.6121362"
+    },
+    {
+      "NODEJ": "4",
+      "NODEI": "21",
+      "PrdMIG": "1242.039717"
+    },
+    {
+      "NODEJ": "4",
+      "NODEI": "22",
+      "PrdMIG": "444.2722634"
+    },
+    {
+      "NODEJ": "4",
+      "NODEI": "23",
+      "PrdMIG": "1171.1193"
+    },
+    {
+      "NODEJ": "4",
+      "NODEI": "24",
+      "PrdMIG": "235.3235289"
+    },
+    {
+      "NODEJ": "4",
+      "NODEI": "25",
+      "PrdMIG": "684.0706095"
+    },
+    {
+      "NODEJ": "5",
+      "NODEI": "1",
+      "PrdMIG": "323.87597"
+    },
+    {
+      "NODEJ": "5",
+      "NODEI": "2",
+      "PrdMIG": "595.2372246"
+    },
+    {
+      "NODEJ": "5",
+      "NODEI": "3",
+      "PrdMIG": "1041.991291"
+    },
+    {
+      "NODEJ": "5",
+      "NODEI": "4",
+      "PrdMIG": "977.6714931"
+    },
+    {
+      "NODEJ": "5",
+      "NODEI": "6",
+      "PrdMIG": "357.1600899"
+    },
+    {
+      "NODEJ": "5",
+      "NODEI": "7",
+      "PrdMIG": "884.3129048"
+    },
+    {
+      "NODEJ": "5",
+      "NODEI": "8",
+      "PrdMIG": "976.5042698"
+    },
+    {
+      "NODEJ": "5",
+      "NODEI": "9",
+      "PrdMIG": "911.6906622"
+    },
+    {
+      "NODEJ": "5",
+      "NODEI": "10",
+      "PrdMIG": "567.0292677"
+    },
+    {
+      "NODEJ": "5",
+      "NODEI": "11",
+      "PrdMIG": "1000.467077"
+    },
+    {
+      "NODEJ": "5",
+      "NODEI": "12",
+      "PrdMIG": "791.0095297"
+    },
+    {
+      "NODEJ": "5",
+      "NODEI": "13",
+      "PrdMIG": "460.7002766"
+    },
+    {
+      "NODEJ": "5",
+      "NODEI": "14",
+      "PrdMIG": "324.7126583"
+    },
+    {
+      "NODEJ": "5",
+      "NODEI": "15",
+      "PrdMIG": "2255.511699"
+    },
+    {
+      "NODEJ": "5",
+      "NODEI": "16",
+      "PrdMIG": "256.5088294"
+    },
+    {
+      "NODEJ": "5",
+      "NODEI": "17",
+      "PrdMIG": "549.5355445"
+    },
+    {
+      "NODEJ": "5",
+      "NODEI": "18",
+      "PrdMIG": "553.4621615"
+    },
+    {
+      "NODEJ": "5",
+      "NODEI": "19",
+      "PrdMIG": "550.2549516"
+    },
+    {
+      "NODEJ": "5",
+      "NODEI": "20",
+      "PrdMIG": "411.1799338"
+    },
+    {
+      "NODEJ": "5",
+      "NODEI": "21",
+      "PrdMIG": "548.6108592"
+    },
+    {
+      "NODEJ": "5",
+      "NODEI": "22",
+      "PrdMIG": "326.9427127"
+    },
+    {
+      "NODEJ": "5",
+      "NODEI": "23",
+      "PrdMIG": "461.235923"
+    },
+    {
+      "NODEJ": "5",
+      "NODEI": "24",
+      "PrdMIG": "172.4839964"
+    },
+    {
+      "NODEJ": "5",
+      "NODEI": "25",
+      "PrdMIG": "465.3429896"
+    },
+    {
+      "NODEJ": "6",
+      "NODEI": "1",
+      "PrdMIG": "2295.918671"
+    },
+    {
+      "NODEJ": "6",
+      "NODEI": "2",
+      "PrdMIG": "1959.160128"
+    },
+    {
+      "NODEJ": "6",
+      "NODEI": "3",
+      "PrdMIG": "748.433141"
+    },
+    {
+      "NODEJ": "6",
+      "NODEI": "4",
+      "PrdMIG": "656.2470407"
+    },
+    {
+      "NODEJ": "6",
+      "NODEI": "5",
+      "PrdMIG": "809.3389401"
+    },
+    {
+      "NODEJ": "6",
+      "NODEI": "7",
+      "PrdMIG": "644.2140428"
+    },
+    {
+      "NODEJ": "6",
+      "NODEI": "8",
+      "PrdMIG": "816.4724926"
+    },
+    {
+      "NODEJ": "6",
+      "NODEI": "9",
+      "PrdMIG": "891.0249269"
+    },
+    {
+      "NODEJ": "6",
+      "NODEI": "10",
+      "PrdMIG": "1483.158487"
+    },
+    {
+      "NODEJ": "6",
+      "NODEI": "11",
+      "PrdMIG": "878.9111651"
+    },
+    {
+      "NODEJ": "6",
+      "NODEI": "12",
+      "PrdMIG": "1079.519488"
+    },
+    {
+      "NODEJ": "6",
+      "NODEI": "13",
+      "PrdMIG": "2361.951217"
+    },
+    {
+      "NODEJ": "6",
+      "NODEI": "14",
+      "PrdMIG": "2367.516685"
+    },
+    {
+      "NODEJ": "6",
+      "NODEI": "15",
+      "PrdMIG": "3716.910714"
+    },
+    {
+      "NODEJ": "6",
+      "NODEI": "16",
+      "PrdMIG": "1166.451715"
+    },
+    {
+      "NODEJ": "6",
+      "NODEI": "17",
+      "PrdMIG": "565.9328695"
+    },
+    {
+      "NODEJ": "6",
+      "NODEI": "18",
+      "PrdMIG": "376.0912797"
+    },
+    {
+      "NODEJ": "6",
+      "NODEI": "19",
+      "PrdMIG": "1039.596344"
+    },
+    {
+      "NODEJ": "6",
+      "NODEI": "20",
+      "PrdMIG": "3131.365131"
+    },
+    {
+      "NODEJ": "6",
+      "NODEI": "21",
+      "PrdMIG": "414.6649396"
+    },
+    {
+      "NODEJ": "6",
+      "NODEI": "22",
+      "PrdMIG": "1559.498597"
+    },
+    {
+      "NODEJ": "6",
+      "NODEI": "23",
+      "PrdMIG": "312.3664511"
+    },
+    {
+      "NODEJ": "6",
+      "NODEI": "24",
+      "PrdMIG": "1355.218468"
+    },
+    {
+      "NODEJ": "6",
+      "NODEI": "25",
+      "PrdMIG": "857.7532281"
+    },
+    {
+      "NODEJ": "7",
+      "NODEI": "1",
+      "PrdMIG": "292.6741124"
+    },
+    {
+      "NODEJ": "7",
+      "NODEI": "2",
+      "PrdMIG": "498.886099"
+    },
+    {
+      "NODEJ": "7",
+      "NODEI": "3",
+      "PrdMIG": "1078.044235"
+    },
+    {
+      "NODEJ": "7",
+      "NODEI": "4",
+      "PrdMIG": "1360.398203"
+    },
+    {
+      "NODEJ": "7",
+      "NODEI": "5",
+      "PrdMIG": "946.9993217"
+    },
+    {
+      "NODEJ": "7",
+      "NODEI": "6",
+      "PrdMIG": "299.4072245"
+    },
+    {
+      "NODEJ": "7",
+      "NODEI": "8",
+      "PrdMIG": "1179.830948"
+    },
+    {
+      "NODEJ": "7",
+      "NODEI": "9",
+      "PrdMIG": "726.2095451"
+    },
+    {
+      "NODEJ": "7",
+      "NODEI": "10",
+      "PrdMIG": "492.2928747"
+    },
+    {
+      "NODEJ": "7",
+      "NODEI": "11",
+      "PrdMIG": "795.983508"
+    },
+    {
+      "NODEJ": "7",
+      "NODEI": "12",
+      "PrdMIG": "678.0811464"
+    },
+    {
+      "NODEJ": "7",
+      "NODEI": "13",
+      "PrdMIG": "385.2281305"
+    },
+    {
+      "NODEJ": "7",
+      "NODEI": "14",
+      "PrdMIG": "270.9159489"
+    },
+    {
+      "NODEJ": "7",
+      "NODEI": "15",
+      "PrdMIG": "1798.659666"
+    },
+    {
+      "NODEJ": "7",
+      "NODEI": "16",
+      "PrdMIG": "264.7275917"
+    },
+    {
+      "NODEJ": "7",
+      "NODEI": "17",
+      "PrdMIG": "828.0012821"
+    },
+    {
+      "NODEJ": "7",
+      "NODEI": "18",
+      "PrdMIG": "1145.970708"
+    },
+    {
+      "NODEJ": "7",
+      "NODEI": "19",
+      "PrdMIG": "480.2454339"
+    },
+    {
+      "NODEJ": "7",
+      "NODEI": "20",
+      "PrdMIG": "346.2686411"
+    },
+    {
+      "NODEJ": "7",
+      "NODEI": "21",
+      "PrdMIG": "1254.421935"
+    },
+    {
+      "NODEJ": "7",
+      "NODEI": "22",
+      "PrdMIG": "292.3706159"
+    },
+    {
+      "NODEJ": "7",
+      "NODEI": "23",
+      "PrdMIG": "1019.302097"
+    },
+    {
+      "NODEJ": "7",
+      "NODEI": "24",
+      "PrdMIG": "149.8629789"
+    },
+    {
+      "NODEJ": "7",
+      "NODEI": "25",
+      "PrdMIG": "483.8165001"
+    },
+    {
+      "NODEJ": "8",
+      "NODEI": "1",
+      "PrdMIG": "613.7290388"
+    },
+    {
+      "NODEJ": "8",
+      "NODEI": "2",
+      "PrdMIG": "1040.22644"
+    },
+    {
+      "NODEJ": "8",
+      "NODEI": "3",
+      "PrdMIG": "2000.064311"
+    },
+    {
+      "NODEJ": "8",
+      "NODEI": "4",
+      "PrdMIG": "1814.390012"
+    },
+    {
+      "NODEJ": "8",
+      "NODEI": "5",
+      "PrdMIG": "1763.458886"
+    },
+    {
+      "NODEJ": "8",
+      "NODEI": "6",
+      "PrdMIG": "640.0294456"
+    },
+    {
+      "NODEJ": "8",
+      "NODEI": "7",
+      "PrdMIG": "1957.066754"
+    },
+    {
+      "NODEJ": "8",
+      "NODEI": "9",
+      "PrdMIG": "1459.859624"
+    },
+    {
+      "NODEJ": "8",
+      "NODEI": "10",
+      "PrdMIG": "1051.976348"
+    },
+    {
+      "NODEJ": "8",
+      "NODEI": "11",
+      "PrdMIG": "1467.72041"
+    },
+    {
+      "NODEJ": "8",
+      "NODEI": "12",
+      "PrdMIG": "1437.134919"
+    },
+    {
+      "NODEJ": "8",
+      "NODEI": "13",
+      "PrdMIG": "821.4699725"
+    },
+    {
+      "NODEJ": "8",
+      "NODEI": "14",
+      "PrdMIG": "578.157613"
+    },
+    {
+      "NODEJ": "8",
+      "NODEI": "15",
+      "PrdMIG": "3704.922176"
+    },
+    {
+      "NODEJ": "8",
+      "NODEI": "16",
+      "PrdMIG": "542.3447864"
+    },
+    {
+      "NODEJ": "8",
+      "NODEI": "17",
+      "PrdMIG": "1415.066506"
+    },
+    {
+      "NODEJ": "8",
+      "NODEI": "18",
+      "PrdMIG": "1119.405356"
+    },
+    {
+      "NODEJ": "8",
+      "NODEI": "19",
+      "PrdMIG": "1025.437603"
+    },
+    {
+      "NODEJ": "8",
+      "NODEI": "20",
+      "PrdMIG": "739.9097862"
+    },
+    {
+      "NODEJ": "8",
+      "NODEI": "21",
+      "PrdMIG": "1279.217045"
+    },
+    {
+      "NODEJ": "8",
+      "NODEI": "22",
+      "PrdMIG": "623.9626915"
+    },
+    {
+      "NODEJ": "8",
+      "NODEI": "23",
+      "PrdMIG": "933.0267284"
+    },
+    {
+      "NODEJ": "8",
+      "NODEI": "24",
+      "PrdMIG": "320.4367225"
+    },
+    {
+      "NODEJ": "8",
+      "NODEI": "25",
+      "PrdMIG": "1013.859525"
+    },
+    {
+      "NODEJ": "9",
+      "NODEI": "1",
+      "PrdMIG": "284.8960662"
+    },
+    {
+      "NODEJ": "9",
+      "NODEI": "2",
+      "PrdMIG": "528.0548447"
+    },
+    {
+      "NODEJ": "9",
+      "NODEI": "3",
+      "PrdMIG": "653.6201219"
+    },
+    {
+      "NODEJ": "9",
+      "NODEI": "4",
+      "PrdMIG": "592.1398696"
+    },
+    {
+      "NODEJ": "9",
+      "NODEI": "5",
+      "PrdMIG": "732.9558032"
+    },
+    {
+      "NODEJ": "9",
+      "NODEI": "6",
+      "PrdMIG": "310.9957983"
+    },
+    {
+      "NODEJ": "9",
+      "NODEI": "7",
+      "PrdMIG": "536.3767552"
+    },
+    {
+      "NODEJ": "9",
+      "NODEI": "8",
+      "PrdMIG": "639.3447428"
+    },
+    {
+      "NODEJ": "9",
+      "NODEI": "10",
+      "PrdMIG": "488.6708316"
+    },
+    {
+      "NODEJ": "9",
+      "NODEI": "11",
+      "PrdMIG": "733.7344603"
+    },
+    {
+      "NODEJ": "9",
+      "NODEI": "12",
+      "PrdMIG": "669.7912508"
+    },
+    {
+      "NODEJ": "9",
+      "NODEI": "13",
+      "PrdMIG": "401.5013583"
+    },
+    {
+      "NODEJ": "9",
+      "NODEI": "14",
+      "PrdMIG": "283.1771537"
+    },
+    {
+      "NODEJ": "9",
+      "NODEI": "15",
+      "PrdMIG": "1961.391023"
+    },
+    {
+      "NODEJ": "9",
+      "NODEI": "16",
+      "PrdMIG": "213.5756791"
+    },
+    {
+      "NODEJ": "9",
+      "NODEI": "17",
+      "PrdMIG": "372.8423477"
+    },
+    {
+      "NODEJ": "9",
+      "NODEI": "18",
+      "PrdMIG": "329.9394736"
+    },
+    {
+      "NODEJ": "9",
+      "NODEI": "19",
+      "PrdMIG": "469.9902386"
+    },
+    {
+      "NODEJ": "9",
+      "NODEI": "20",
+      "PrdMIG": "358.4211631"
+    },
+    {
+      "NODEJ": "9",
+      "NODEI": "21",
+      "PrdMIG": "336.5431218"
+    },
+    {
+      "NODEJ": "9",
+      "NODEI": "22",
+      "PrdMIG": "281.4151653"
+    },
+    {
+      "NODEJ": "9",
+      "NODEI": "23",
+      "PrdMIG": "274.7451976"
+    },
+    {
+      "NODEJ": "9",
+      "NODEI": "24",
+      "PrdMIG": "152.7995809"
+    },
+    {
+      "NODEJ": "9",
+      "NODEI": "25",
+      "PrdMIG": "379.6053827"
+    },
+    {
+      "NODEJ": "10",
+      "NODEI": "1",
+      "PrdMIG": "826.654793"
+    },
+    {
+      "NODEJ": "10",
+      "NODEI": "2",
+      "PrdMIG": "1361.15963"
+    },
+    {
+      "NODEJ": "10",
+      "NODEI": "3",
+      "PrdMIG": "727.5471579"
+    },
+    {
+      "NODEJ": "10",
+      "NODEI": "4",
+      "PrdMIG": "633.860624"
+    },
+    {
+      "NODEJ": "10",
+      "NODEI": "5",
+      "PrdMIG": "762.2775436"
+    },
+    {
+      "NODEJ": "10",
+      "NODEI": "6",
+      "PrdMIG": "865.5469699"
+    },
+    {
+      "NODEJ": "10",
+      "NODEI": "7",
+      "PrdMIG": "608.0406069"
+    },
+    {
+      "NODEJ": "10",
+      "NODEI": "8",
+      "PrdMIG": "770.3830639"
+    },
+    {
+      "NODEJ": "10",
+      "NODEI": "9",
+      "PrdMIG": "817.6497053"
+    },
+    {
+      "NODEJ": "10",
+      "NODEI": "11",
+      "PrdMIG": "792.9089143"
+    },
+    {
+      "NODEJ": "10",
+      "NODEI": "12",
+      "PrdMIG": "1029.537824"
+    },
+    {
+      "NODEJ": "10",
+      "NODEI": "13",
+      "PrdMIG": "1104.998676"
+    },
+    {
+      "NODEJ": "10",
+      "NODEI": "14",
+      "PrdMIG": "780.7291774"
+    },
+    {
+      "NODEJ": "10",
+      "NODEI": "15",
+      "PrdMIG": "3233.857289"
+    },
+    {
+      "NODEJ": "10",
+      "NODEI": "16",
+      "PrdMIG": "591.7410093"
+    },
+    {
+      "NODEJ": "10",
+      "NODEI": "17",
+      "PrdMIG": "529.8554927"
+    },
+    {
+      "NODEJ": "10",
+      "NODEI": "18",
+      "PrdMIG": "359.4969775"
+    },
+    {
+      "NODEJ": "10",
+      "NODEI": "19",
+      "PrdMIG": "996.8455345"
+    },
+    {
+      "NODEJ": "10",
+      "NODEI": "20",
+      "PrdMIG": "1000.939713"
+    },
+    {
+      "NODEJ": "10",
+      "NODEI": "21",
+      "PrdMIG": "397.5163929"
+    },
+    {
+      "NODEJ": "10",
+      "NODEI": "22",
+      "PrdMIG": "819.5554126"
+    },
+    {
+      "NODEJ": "10",
+      "NODEI": "23",
+      "PrdMIG": "298.5386605"
+    },
+    {
+      "NODEJ": "10",
+      "NODEI": "24",
+      "PrdMIG": "432.6836697"
+    },
+    {
+      "NODEJ": "10",
+      "NODEI": "25",
+      "PrdMIG": "774.9613013"
+    },
+    {
+      "NODEJ": "11",
+      "NODEI": "1",
+      "PrdMIG": "393.0112235"
+    },
+    {
+      "NODEJ": "11",
+      "NODEI": "2",
+      "PrdMIG": "748.7861025"
+    },
+    {
+      "NODEJ": "11",
+      "NODEI": "3",
+      "PrdMIG": "986.3198721"
+    },
+    {
+      "NODEJ": "11",
+      "NODEI": "4",
+      "PrdMIG": "976.8004815"
+    },
+    {
+      "NODEJ": "11",
+      "NODEI": "5",
+      "PrdMIG": "1145.435392"
+    },
+    {
+      "NODEJ": "11",
+      "NODEI": "6",
+      "PrdMIG": "436.82622"
+    },
+    {
+      "NODEJ": "11",
+      "NODEI": "7",
+      "PrdMIG": "837.183902"
+    },
+    {
+      "NODEJ": "11",
+      "NODEI": "8",
+      "PrdMIG": "915.3688225"
+    },
+    {
+      "NODEJ": "11",
+      "NODEI": "9",
+      "PrdMIG": "1045.619114"
+    },
+    {
+      "NODEJ": "11",
+      "NODEI": "10",
+      "PrdMIG": "664.2787193"
+    },
+    {
+      "NODEJ": "11",
+      "NODEI": "12",
+      "PrdMIG": "885.173165"
+    },
+    {
+      "NODEJ": "11",
+      "NODEI": "13",
+      "PrdMIG": "567.7580388"
+    },
+    {
+      "NODEJ": "11",
+      "NODEI": "14",
+      "PrdMIG": "404.2914892"
+    },
+    {
+      "NODEJ": "11",
+      "NODEI": "15",
+      "PrdMIG": "2835.589137"
+    },
+    {
+      "NODEJ": "11",
+      "NODEI": "16",
+      "PrdMIG": "283.5572129"
+    },
+    {
+      "NODEJ": "11",
+      "NODEI": "17",
+      "PrdMIG": "518.4681808"
+    },
+    {
+      "NODEJ": "11",
+      "NODEI": "18",
+      "PrdMIG": "541.2509675"
+    },
+    {
+      "NODEJ": "11",
+      "NODEI": "19",
+      "PrdMIG": "628.6583426"
+    },
+    {
+      "NODEJ": "11",
+      "NODEI": "20",
+      "PrdMIG": "510.1458237"
+    },
+    {
+      "NODEJ": "11",
+      "NODEI": "21",
+      "PrdMIG": "514.1554674"
+    },
+    {
+      "NODEJ": "11",
+      "NODEI": "22",
+      "PrdMIG": "383.7596007"
+    },
+    {
+      "NODEJ": "11",
+      "NODEI": "23",
+      "PrdMIG": "454.7517009"
+    },
+    {
+      "NODEJ": "11",
+      "NODEI": "24",
+      "PrdMIG": "216.1188202"
+    },
+    {
+      "NODEJ": "11",
+      "NODEI": "25",
+      "PrdMIG": "498.7141097"
+    },
+    {
+      "NODEJ": "12",
+      "NODEI": "1",
+      "PrdMIG": "923.975324"
+    },
+    {
+      "NODEJ": "12",
+      "NODEI": "2",
+      "PrdMIG": "1637.3399"
+    },
+    {
+      "NODEJ": "12",
+      "NODEI": "3",
+      "PrdMIG": "1570.135571"
+    },
+    {
+      "NODEJ": "12",
+      "NODEI": "4",
+      "PrdMIG": "1370.530058"
+    },
+    {
+      "NODEJ": "12",
+      "NODEI": "5",
+      "PrdMIG": "1670.461181"
+    },
+    {
+      "NODEJ": "12",
+      "NODEI": "6",
+      "PrdMIG": "989.6838159"
+    },
+    {
+      "NODEJ": "12",
+      "NODEI": "7",
+      "PrdMIG": "1315.561689"
+    },
+    {
+      "NODEJ": "12",
+      "NODEI": "8",
+      "PrdMIG": "1653.24925"
+    },
+    {
+      "NODEJ": "12",
+      "NODEI": "9",
+      "PrdMIG": "1760.570624"
+    },
+    {
+      "NODEJ": "12",
+      "NODEI": "10",
+      "PrdMIG": "1590.991473"
+    },
+    {
+      "NODEJ": "12",
+      "NODEI": "11",
+      "PrdMIG": "1633.853909"
+    },
+    {
+      "NODEJ": "12",
+      "NODEI": "13",
+      "PrdMIG": "1284.265011"
+    },
+    {
+      "NODEJ": "12",
+      "NODEI": "14",
+      "PrdMIG": "902.8353585"
+    },
+    {
+      "NODEJ": "12",
+      "NODEI": "15",
+      "PrdMIG": "5618.698806"
+    },
+    {
+      "NODEJ": "12",
+      "NODEI": "16",
+      "PrdMIG": "722.0697375"
+    },
+    {
+      "NODEJ": "12",
+      "NODEI": "17",
+      "PrdMIG": "1058.94723"
+    },
+    {
+      "NODEJ": "12",
+      "NODEI": "18",
+      "PrdMIG": "789.2135907"
+    },
+    {
+      "NODEJ": "12",
+      "NODEI": "19",
+      "PrdMIG": "1574.863845"
+    },
+    {
+      "NODEJ": "12",
+      "NODEI": "20",
+      "PrdMIG": "1149.409006"
+    },
+    {
+      "NODEJ": "12",
+      "NODEI": "21",
+      "PrdMIG": "854.1345976"
+    },
+    {
+      "NODEJ": "12",
+      "NODEI": "22",
+      "PrdMIG": "935.0653685"
+    },
+    {
+      "NODEJ": "12",
+      "NODEI": "23",
+      "PrdMIG": "644.3571214"
+    },
+    {
+      "NODEJ": "12",
+      "NODEI": "24",
+      "PrdMIG": "485.5120939"
+    },
+    {
+      "NODEJ": "12",
+      "NODEI": "25",
+      "PrdMIG": "1237.61141"
+    },
+    {
+      "NODEJ": "13",
+      "NODEI": "1",
+      "PrdMIG": "2284.24887"
+    },
+    {
+      "NODEJ": "13",
+      "NODEI": "2",
+      "PrdMIG": "2883.261633"
+    },
+    {
+      "NODEJ": "13",
+      "NODEI": "3",
+      "PrdMIG": "1083.346571"
+    },
+    {
+      "NODEJ": "13",
+      "NODEI": "4",
+      "PrdMIG": "955.6096259"
+    },
+    {
+      "NODEJ": "13",
+      "NODEI": "5",
+      "PrdMIG": "1181.158691"
+    },
+    {
+      "NODEJ": "13",
+      "NODEI": "6",
+      "PrdMIG": "2628.937178"
+    },
+    {
+      "NODEJ": "13",
+      "NODEI": "7",
+      "PrdMIG": "907.4390939"
+    },
+    {
+      "NODEJ": "13",
+      "NODEI": "8",
+      "PrdMIG": "1147.305241"
+    },
+    {
+      "NODEJ": "13",
+      "NODEI": "9",
+      "PrdMIG": "1281.194998"
+    },
+    {
+      "NODEJ": "13",
+      "NODEI": "10",
+      "PrdMIG": "2038.006782"
+    },
+    {
+      "NODEJ": "13",
+      "NODEI": "11",
+      "PrdMIG": "1250.696035"
+    },
+    {
+      "NODEJ": "13",
+      "NODEI": "12",
+      "PrdMIG": "1507.721965"
+    },
+    {
+      "NODEJ": "13",
+      "NODEI": "14",
+      "PrdMIG": "2407.448434"
+    },
+    {
+      "NODEJ": "13",
+      "NODEI": "15",
+      "PrdMIG": "5374.29459"
+    },
+    {
+      "NODEJ": "13",
+      "NODEI": "16",
+      "PrdMIG": "1267.18801"
+    },
+    {
+      "NODEJ": "13",
+      "NODEI": "17",
+      "PrdMIG": "772.8620227"
+    },
+    {
+      "NODEJ": "13",
+      "NODEI": "18",
+      "PrdMIG": "536.0130285"
+    },
+    {
+      "NODEJ": "13",
+      "NODEI": "19",
+      "PrdMIG": "1462.222517"
+    },
+    {
+      "NODEJ": "13",
+      "NODEI": "20",
+      "PrdMIG": "3055.782495"
+    },
+    {
+      "NODEJ": "13",
+      "NODEI": "21",
+      "PrdMIG": "581.3804835"
+    },
+    {
+      "NODEJ": "13",
+      "NODEI": "22",
+      "PrdMIG": "1894.613601"
+    },
+    {
+      "NODEJ": "13",
+      "NODEI": "23",
+      "PrdMIG": "445.4105722"
+    },
+    {
+      "NODEJ": "13",
+      "NODEI": "24",
+      "PrdMIG": "1302.341434"
+    },
+    {
+      "NODEJ": "13",
+      "NODEI": "25",
+      "PrdMIG": "1153.119925"
+    },
+    {
+      "NODEJ": "14",
+      "NODEI": "1",
+      "PrdMIG": "1721.639214"
+    },
+    {
+      "NODEJ": "14",
+      "NODEI": "2",
+      "PrdMIG": "1488.606673"
+    },
+    {
+      "NODEJ": "14",
+      "NODEI": "3",
+      "PrdMIG": "555.8400413"
+    },
+    {
+      "NODEJ": "14",
+      "NODEI": "4",
+      "PrdMIG": "491.1411364"
+    },
+    {
+      "NODEJ": "14",
+      "NODEI": "5",
+      "PrdMIG": "607.5582961"
+    },
+    {
+      "NODEJ": "14",
+      "NODEI": "6",
+      "PrdMIG": "1922.990403"
+    },
+    {
+      "NODEJ": "14",
+      "NODEI": "7",
+      "PrdMIG": "457.8465488"
+    },
+    {
+      "NODEJ": "14",
+      "NODEI": "8",
+      "PrdMIG": "579.3002538"
+    },
+    {
+      "NODEJ": "14",
+      "NODEI": "9",
+      "PrdMIG": "648.2458189"
+    },
+    {
+      "NODEJ": "14",
+      "NODEI": "10",
+      "PrdMIG": "1050.787163"
+    },
+    {
+      "NODEJ": "14",
+      "NODEI": "11",
+      "PrdMIG": "649.949387"
+    },
+    {
+      "NODEJ": "14",
+      "NODEI": "12",
+      "PrdMIG": "773.4948779"
+    },
+    {
+      "NODEJ": "14",
+      "NODEI": "13",
+      "PrdMIG": "1728.245873"
+    },
+    {
+      "NODEJ": "14",
+      "NODEI": "15",
+      "PrdMIG": "2788.008167"
+    },
+    {
+      "NODEJ": "14",
+      "NODEI": "16",
+      "PrdMIG": "827.356807"
+    },
+    {
+      "NODEJ": "14",
+      "NODEI": "17",
+      "PrdMIG": "401.5598571"
+    },
+    {
+      "NODEJ": "14",
+      "NODEI": "18",
+      "PrdMIG": "275.1107999"
+    },
+    {
+      "NODEJ": "14",
+      "NODEI": "19",
+      "PrdMIG": "751.4419001"
+    },
+    {
+      "NODEJ": "14",
+      "NODEI": "20",
+      "PrdMIG": "2793.700046"
+    },
+    {
+      "NODEJ": "14",
+      "NODEI": "21",
+      "PrdMIG": "298.6402993"
+    },
+    {
+      "NODEJ": "14",
+      "NODEI": "22",
+      "PrdMIG": "1088.631133"
+    },
+    {
+      "NODEJ": "14",
+      "NODEI": "23",
+      "PrdMIG": "228.6415222"
+    },
+    {
+      "NODEJ": "14",
+      "NODEI": "24",
+      "PrdMIG": "1178.731638"
+    },
+    {
+      "NODEJ": "14",
+      "NODEI": "25",
+      "PrdMIG": "605.8439575"
+    },
+    {
+      "NODEJ": "15",
+      "NODEI": "1",
+      "PrdMIG": "6997.296591"
+    },
+    {
+      "NODEJ": "15",
+      "NODEI": "2",
+      "PrdMIG": "13389.61069"
+    },
+    {
+      "NODEJ": "15",
+      "NODEI": "3",
+      "PrdMIG": "9742.620544"
+    },
+    {
+      "NODEJ": "15",
+      "NODEI": "4",
+      "PrdMIG": "8836.69563"
+    },
+    {
+      "NODEJ": "15",
+      "NODEI": "5",
+      "PrdMIG": "10927.76911"
+    },
+    {
+      "NODEJ": "15",
+      "NODEI": "6",
+      "PrdMIG": "7812.523178"
+    },
+    {
+      "NODEJ": "15",
+      "NODEI": "7",
+      "PrdMIG": "7997.631013"
+    },
+    {
+      "NODEJ": "15",
+      "NODEI": "8",
+      "PrdMIG": "9774.649744"
+    },
+    {
+      "NODEJ": "15",
+      "NODEI": "9",
+      "PrdMIG": "11833.40472"
+    },
+    {
+      "NODEJ": "15",
+      "NODEI": "10",
+      "PrdMIG": "11468.73593"
+    },
+    {
+      "NODEJ": "15",
+      "NODEI": "11",
+      "PrdMIG": "12010.35599"
+    },
+    {
+      "NODEJ": "15",
+      "NODEI": "12",
+      "PrdMIG": "12688.16958"
+    },
+    {
+      "NODEJ": "15",
+      "NODEI": "13",
+      "PrdMIG": "10160.01393"
+    },
+    {
+      "NODEJ": "15",
+      "NODEI": "14",
+      "PrdMIG": "7218.733807"
+    },
+    {
+      "NODEJ": "15",
+      "NODEI": "16",
+      "PrdMIG": "4849.661698"
+    },
+    {
+      "NODEJ": "15",
+      "NODEI": "17",
+      "PrdMIG": "5961.267128"
+    },
+    {
+      "NODEJ": "15",
+      "NODEI": "18",
+      "PrdMIG": "4911.351015"
+    },
+    {
+      "NODEJ": "15",
+      "NODEI": "19",
+      "PrdMIG": "10194.15313"
+    },
+    {
+      "NODEJ": "15",
+      "NODEI": "20",
+      "PrdMIG": "9107.591753"
+    },
+    {
+      "NODEJ": "15",
+      "NODEI": "21",
+      "PrdMIG": "5041.702564"
+    },
+    {
+      "NODEJ": "15",
+      "NODEI": "22",
+      "PrdMIG": "6752.31188"
+    },
+    {
+      "NODEJ": "15",
+      "NODEI": "23",
+      "PrdMIG": "4093.372839"
+    },
+    {
+      "NODEJ": "15",
+      "NODEI": "24",
+      "PrdMIG": "3863.577105"
+    },
+    {
+      "NODEJ": "15",
+      "NODEI": "25",
+      "PrdMIG": "7354.366819"
+    },
+    {
+      "NODEJ": "16",
+      "NODEI": "1",
+      "PrdMIG": "1141.803405"
+    },
+    {
+      "NODEJ": "16",
+      "NODEI": "2",
+      "PrdMIG": "858.835136"
+    },
+    {
+      "NODEJ": "16",
+      "NODEI": "3",
+      "PrdMIG": "463.9793266"
+    },
+    {
+      "NODEJ": "16",
+      "NODEI": "4",
+      "PrdMIG": "400.6910855"
+    },
+    {
+      "NODEJ": "16",
+      "NODEI": "5",
+      "PrdMIG": "466.8222297"
+    },
+    {
+      "NODEJ": "16",
+      "NODEI": "6",
+      "PrdMIG": "921.4658645"
+    },
+    {
+      "NODEJ": "16",
+      "NODEI": "7",
+      "PrdMIG": "442.6718858"
+    },
+    {
+      "NODEJ": "16",
+      "NODEI": "8",
+      "PrdMIG": "537.6786065"
+    },
+    {
+      "NODEJ": "16",
+      "NODEI": "9",
+      "PrdMIG": "483.7491413"
+    },
+    {
+      "NODEJ": "16",
+      "NODEI": "10",
+      "PrdMIG": "787.9671019"
+    },
+    {
+      "NODEJ": "16",
+      "NODEI": "11",
+      "PrdMIG": "451.0465347"
+    },
+    {
+      "NODEJ": "16",
+      "NODEI": "12",
+      "PrdMIG": "612.077828"
+    },
+    {
+      "NODEJ": "16",
+      "NODEI": "13",
+      "PrdMIG": "900.044672"
+    },
+    {
+      "NODEJ": "16",
+      "NODEI": "14",
+      "PrdMIG": "805.2416779"
+    },
+    {
+      "NODEJ": "16",
+      "NODEI": "15",
+      "PrdMIG": "1793.909021"
+    },
+    {
+      "NODEJ": "16",
+      "NODEI": "17",
+      "PrdMIG": "437.4386852"
+    },
+    {
+      "NODEJ": "16",
+      "NODEI": "18",
+      "PrdMIG": "242.8272188"
+    },
+    {
+      "NODEJ": "16",
+      "NODEI": "19",
+      "PrdMIG": "594.3022122"
+    },
+    {
+      "NODEJ": "16",
+      "NODEI": "20",
+      "PrdMIG": "1209.655823"
+    },
+    {
+      "NODEJ": "16",
+      "NODEI": "21",
+      "PrdMIG": "293.8481245"
+    },
+    {
+      "NODEJ": "16",
+      "NODEI": "22",
+      "PrdMIG": "830.5465822"
+    },
+    {
+      "NODEJ": "16",
+      "NODEI": "23",
+      "PrdMIG": "202.9223186"
+    },
+    {
+      "NODEJ": "16",
+      "NODEI": "24",
+      "PrdMIG": "596.0918004"
+    },
+    {
+      "NODEJ": "16",
+      "NODEI": "25",
+      "PrdMIG": "617.3485437"
+    },
+    {
+      "NODEJ": "17",
+      "NODEI": "1",
+      "PrdMIG": "93.66804483"
+    },
+    {
+      "NODEJ": "17",
+      "NODEI": "2",
+      "PrdMIG": "143.950682"
+    },
+    {
+      "NODEJ": "17",
+      "NODEI": "3",
+      "PrdMIG": "237.580145"
+    },
+    {
+      "NODEJ": "17",
+      "NODEI": "4",
+      "PrdMIG": "226.283334"
+    },
+    {
+      "NODEJ": "17",
+      "NODEI": "5",
+      "PrdMIG": "209.8123317"
+    },
+    {
+      "NODEJ": "17",
+      "NODEI": "6",
+      "PrdMIG": "93.84236171"
+    },
+    {
+      "NODEJ": "17",
+      "NODEI": "7",
+      "PrdMIG": "290.3147858"
+    },
+    {
+      "NODEJ": "17",
+      "NODEI": "8",
+      "PrdMIG": "294.2050334"
+    },
+    {
+      "NODEJ": "17",
+      "NODEI": "9",
+      "PrdMIG": "177.1953801"
+    },
+    {
+      "NODEJ": "17",
+      "NODEI": "10",
+      "PrdMIG": "148.0641638"
+    },
+    {
+      "NODEJ": "17",
+      "NODEI": "11",
+      "PrdMIG": "173.0421305"
+    },
+    {
+      "NODEJ": "17",
+      "NODEI": "12",
+      "PrdMIG": "188.3411433"
+    },
+    {
+      "NODEJ": "17",
+      "NODEI": "13",
+      "PrdMIG": "115.2167716"
+    },
+    {
+      "NODEJ": "17",
+      "NODEI": "14",
+      "PrdMIG": "80.64631478"
+    },
+    {
+      "NODEJ": "17",
+      "NODEI": "15",
+      "PrdMIG": "462.1376637"
+    },
+    {
+      "NODEJ": "17",
+      "NODEI": "16",
+      "PrdMIG": "88.78524193"
+    },
+    {
+      "NODEJ": "17",
+      "NODEI": "18",
+      "PrdMIG": "149.5918555"
+    },
+    {
+      "NODEJ": "17",
+      "NODEI": "19",
+      "PrdMIG": "141.2024187"
+    },
+    {
+      "NODEJ": "17",
+      "NODEI": "20",
+      "PrdMIG": "106.5066007"
+    },
+    {
+      "NODEJ": "17",
+      "NODEI": "21",
+      "PrdMIG": "189.7449428"
+    },
+    {
+      "NODEJ": "17",
+      "NODEI": "22",
+      "PrdMIG": "92.63779856"
+    },
+    {
+      "NODEJ": "17",
+      "NODEI": "23",
+      "PrdMIG": "127.1927441"
+    },
+    {
+      "NODEJ": "17",
+      "NODEI": "24",
+      "PrdMIG": "46.96194659"
+    },
+    {
+      "NODEJ": "17",
+      "NODEI": "25",
+      "PrdMIG": "157.145026"
+    },
+    {
+      "NODEJ": "18",
+      "NODEI": "1",
+      "PrdMIG": "79.03827306"
+    },
+    {
+      "NODEJ": "18",
+      "NODEI": "2",
+      "PrdMIG": "140.9595099"
+    },
+    {
+      "NODEJ": "18",
+      "NODEI": "3",
+      "PrdMIG": "312.2770489"
+    },
+    {
+      "NODEJ": "18",
+      "NODEI": "4",
+      "PrdMIG": "427.8706173"
+    },
+    {
+      "NODEJ": "18",
+      "NODEI": "5",
+      "PrdMIG": "280.0712604"
+    },
+    {
+      "NODEJ": "18",
+      "NODEI": "6",
+      "PrdMIG": "82.66329378"
+    },
+    {
+      "NODEJ": "18",
+      "NODEI": "7",
+      "PrdMIG": "532.2758012"
+    },
+    {
+      "NODEJ": "18",
+      "NODEI": "8",
+      "PrdMIG": "308.5494452"
+    },
+    {
+      "NODEJ": "18",
+      "NODEI": "9",
+      "PrdMIG": "207.8428791"
+    },
+    {
+      "NODEJ": "18",
+      "NODEI": "10",
+      "PrdMIG": "133.1679324"
+    },
+    {
+      "NODEJ": "18",
+      "NODEI": "11",
+      "PrdMIG": "239.419528"
+    },
+    {
+      "NODEJ": "18",
+      "NODEI": "12",
+      "PrdMIG": "186.0726324"
+    },
+    {
+      "NODEJ": "18",
+      "NODEI": "13",
+      "PrdMIG": "105.9221658"
+    },
+    {
+      "NODEJ": "18",
+      "NODEI": "14",
+      "PrdMIG": "74.49886104"
+    },
+    {
+      "NODEJ": "18",
+      "NODEI": "15",
+      "PrdMIG": "513.6328706"
+    },
+    {
+      "NODEJ": "18",
+      "NODEI": "16",
+      "PrdMIG": "66.4565015"
+    },
+    {
+      "NODEJ": "18",
+      "NODEI": "17",
+      "PrdMIG": "198.4020031"
+    },
+    {
+      "NODEJ": "18",
+      "NODEI": "19",
+      "PrdMIG": "132.2394047"
+    },
+    {
+      "NODEJ": "18",
+      "NODEI": "20",
+      "PrdMIG": "96.16299418"
+    },
+    {
+      "NODEJ": "18",
+      "NODEI": "21",
+      "PrdMIG": "296.2267085"
+    },
+    {
+      "NODEJ": "18",
+      "NODEI": "22",
+      "PrdMIG": "78.95100255"
+    },
+    {
+      "NODEJ": "18",
+      "NODEI": "23",
+      "PrdMIG": "334.8767368"
+    },
+    {
+      "NODEJ": "18",
+      "NODEI": "24",
+      "PrdMIG": "41.2441586"
+    },
+    {
+      "NODEJ": "18",
+      "NODEI": "25",
+      "PrdMIG": "126.1285461"
+    },
+    {
+      "NODEJ": "19",
+      "NODEI": "1",
+      "PrdMIG": "247.6736164"
+    },
+    {
+      "NODEJ": "19",
+      "NODEI": "2",
+      "PrdMIG": "423.260461"
+    },
+    {
+      "NODEJ": "19",
+      "NODEI": "3",
+      "PrdMIG": "303.0536405"
+    },
+    {
+      "NODEJ": "19",
+      "NODEI": "4",
+      "PrdMIG": "263.5855049"
+    },
+    {
+      "NODEJ": "19",
+      "NODEI": "5",
+      "PrdMIG": "320.9393258"
+    },
+    {
+      "NODEJ": "19",
+      "NODEI": "6",
+      "PrdMIG": "263.2335075"
+    },
+    {
+      "NODEJ": "19",
+      "NODEI": "7",
+      "PrdMIG": "257.3611055"
+    },
+    {
+      "NODEJ": "19",
+      "NODEI": "8",
+      "PrdMIG": "320.2808704"
+    },
+    {
+      "NODEJ": "19",
+      "NODEI": "9",
+      "PrdMIG": "335.3937973"
+    },
+    {
+      "NODEJ": "19",
+      "NODEI": "10",
+      "PrdMIG": "418.206734"
+    },
+    {
+      "NODEJ": "19",
+      "NODEI": "11",
+      "PrdMIG": "315.0461312"
+    },
+    {
+      "NODEJ": "19",
+      "NODEI": "12",
+      "PrdMIG": "420.5801823"
+    },
+    {
+      "NODEJ": "19",
+      "NODEI": "13",
+      "PrdMIG": "327.2224787"
+    },
+    {
+      "NODEJ": "19",
+      "NODEI": "14",
+      "PrdMIG": "230.4424801"
+    },
+    {
+      "NODEJ": "19",
+      "NODEI": "15",
+      "PrdMIG": "1206.593059"
+    },
+    {
+      "NODEJ": "19",
+      "NODEI": "16",
+      "PrdMIG": "184.2062294"
+    },
+    {
+      "NODEJ": "19",
+      "NODEI": "17",
+      "PrdMIG": "212.1522851"
+    },
+    {
+      "NODEJ": "19",
+      "NODEI": "18",
+      "PrdMIG": "147.3484006"
+    },
+    {
+      "NODEJ": "19",
+      "NODEI": "20",
+      "PrdMIG": "299.5441319"
+    },
+    {
+      "NODEJ": "19",
+      "NODEI": "21",
+      "PrdMIG": "165.1640645"
+    },
+    {
+      "NODEJ": "19",
+      "NODEI": "22",
+      "PrdMIG": "246.6218808"
+    },
+    {
+      "NODEJ": "19",
+      "NODEI": "23",
+      "PrdMIG": "124.3914387"
+    },
+    {
+      "NODEJ": "19",
+      "NODEI": "24",
+      "PrdMIG": "129.2871314"
+    },
+    {
+      "NODEJ": "19",
+      "NODEI": "25",
+      "PrdMIG": "296.1192365"
+    },
+    {
+      "NODEJ": "20",
+      "NODEI": "1",
+      "PrdMIG": "2480.211449"
+    },
+    {
+      "NODEJ": "20",
+      "NODEI": "2",
+      "PrdMIG": "1820.894797"
+    },
+    {
+      "NODEJ": "20",
+      "NODEI": "3",
+      "PrdMIG": "683.2174003"
+    },
+    {
+      "NODEJ": "20",
+      "NODEI": "4",
+      "PrdMIG": "601.7873958"
+    },
+    {
+      "NODEJ": "20",
+      "NODEI": "5",
+      "PrdMIG": "743.9106919"
+    },
+    {
+      "NODEJ": "20",
+      "NODEI": "6",
+      "PrdMIG": "2460.589874"
+    },
+    {
+      "NODEJ": "20",
+      "NODEI": "7",
+      "PrdMIG": "575.5729131"
+    },
+    {
+      "NODEJ": "20",
+      "NODEI": "8",
+      "PrdMIG": "729.2314211"
+    },
+    {
+      "NODEJ": "20",
+      "NODEI": "9",
+      "PrdMIG": "807.093254"
+    },
+    {
+      "NODEJ": "20",
+      "NODEI": "10",
+      "PrdMIG": "1325.368141"
+    },
+    {
+      "NODEJ": "20",
+      "NODEI": "11",
+      "PrdMIG": "806.7165241"
+    },
+    {
+      "NODEJ": "20",
+      "NODEI": "12",
+      "PrdMIG": "952.265108"
+    },
+    {
+      "NODEJ": "20",
+      "NODEI": "13",
+      "PrdMIG": "2121.982399"
+    },
+    {
+      "NODEJ": "20",
+      "NODEI": "14",
+      "PrdMIG": "2658.908883"
+    },
+    {
+      "NODEJ": "20",
+      "NODEI": "15",
+      "PrdMIG": "3349.451825"
+    },
+    {
+      "NODEJ": "20",
+      "NODEI": "16",
+      "PrdMIG": "1163.17761"
+    },
+    {
+      "NODEJ": "20",
+      "NODEI": "17",
+      "PrdMIG": "496.2279175"
+    },
+    {
+      "NODEJ": "20",
+      "NODEI": "18",
+      "PrdMIG": "332.2493816"
+    },
+    {
+      "NODEJ": "20",
+      "NODEI": "19",
+      "PrdMIG": "914.0491823"
+    },
+    {
+      "NODEJ": "20",
+      "NODEI": "21",
+      "PrdMIG": "369.8575448"
+    },
+    {
+      "NODEJ": "20",
+      "NODEI": "22",
+      "PrdMIG": "1404.201616"
+    },
+    {
+      "NODEJ": "20",
+      "NODEI": "23",
+      "PrdMIG": "280.6141709"
+    },
+    {
+      "NODEJ": "20",
+      "NODEI": "24",
+      "PrdMIG": "2059.293025"
+    },
+    {
+      "NODEJ": "20",
+      "NODEI": "25",
+      "PrdMIG": "765.5241521"
+    },
+    {
+      "NODEJ": "21",
+      "NODEI": "1",
+      "PrdMIG": "453.4339595"
+    },
+    {
+      "NODEJ": "21",
+      "NODEI": "2",
+      "PrdMIG": "762.3131231"
+    },
+    {
+      "NODEJ": "21",
+      "NODEI": "3",
+      "PrdMIG": "1644.01491"
+    },
+    {
+      "NODEJ": "21",
+      "NODEI": "4",
+      "PrdMIG": "1955.460977"
+    },
+    {
+      "NODEJ": "21",
+      "NODEI": "5",
+      "PrdMIG": "1429.94649"
+    },
+    {
+      "NODEJ": "21",
+      "NODEI": "6",
+      "PrdMIG": "469.2586269"
+    },
+    {
+      "NODEJ": "21",
+      "NODEI": "7",
+      "PrdMIG": "3002.416085"
+    },
+    {
+      "NODEJ": "21",
+      "NODEI": "8",
+      "PrdMIG": "1816.194733"
+    },
+    {
+      "NODEJ": "21",
+      "NODEI": "9",
+      "PrdMIG": "1091.818357"
+    },
+    {
+      "NODEJ": "21",
+      "NODEI": "10",
+      "PrdMIG": "758.2271531"
+    },
+    {
+      "NODEJ": "21",
+      "NODEI": "11",
+      "PrdMIG": "1171.378625"
+    },
+    {
+      "NODEJ": "21",
+      "NODEI": "12",
+      "PrdMIG": "1037.052894"
+    },
+    {
+      "NODEJ": "21",
+      "NODEI": "13",
+      "PrdMIG": "591.5443073"
+    },
+    {
+      "NODEJ": "21",
+      "NODEI": "14",
+      "PrdMIG": "416.369924"
+    },
+    {
+      "NODEJ": "21",
+      "NODEI": "15",
+      "PrdMIG": "2717.028377"
+    },
+    {
+      "NODEJ": "21",
+      "NODEI": "16",
+      "PrdMIG": "414.0437416"
+    },
+    {
+      "NODEJ": "21",
+      "NODEI": "17",
+      "PrdMIG": "1296.168503"
+    },
+    {
+      "NODEJ": "21",
+      "NODEI": "18",
+      "PrdMIG": "1500.998999"
+    },
+    {
+      "NODEJ": "21",
+      "NODEI": "19",
+      "PrdMIG": "738.585968"
+    },
+    {
+      "NODEJ": "21",
+      "NODEI": "20",
+      "PrdMIG": "533.3411065"
+    },
+    {
+      "NODEJ": "21",
+      "NODEI": "22",
+      "PrdMIG": "452.6530678"
+    },
+    {
+      "NODEJ": "21",
+      "NODEI": "23",
+      "PrdMIG": "1303.647326"
+    },
+    {
+      "NODEJ": "21",
+      "NODEI": "24",
+      "PrdMIG": "231.2832807"
+    },
+    {
+      "NODEJ": "21",
+      "NODEI": "25",
+      "PrdMIG": "753.1013955"
+    },
+    {
+      "NODEJ": "22",
+      "NODEI": "1",
+      "PrdMIG": "1102.922851"
+    },
+    {
+      "NODEJ": "22",
+      "NODEI": "2",
+      "PrdMIG": "1149.218338"
+    },
+    {
+      "NODEJ": "22",
+      "NODEI": "3",
+      "PrdMIG": "501.7466902"
+    },
+    {
+      "NODEJ": "22",
+      "NODEI": "4",
+      "PrdMIG": "435.1883599"
+    },
+    {
+      "NODEJ": "22",
+      "NODEI": "5",
+      "PrdMIG": "530.0971418"
+    },
+    {
+      "NODEJ": "22",
+      "NODEI": "6",
+      "PrdMIG": "1078.848495"
+    },
+    {
+      "NODEJ": "22",
+      "NODEI": "7",
+      "PrdMIG": "428.1782997"
+    },
+    {
+      "NODEJ": "22",
+      "NODEI": "8",
+      "PrdMIG": "541.7622579"
+    },
+    {
+      "NODEJ": "22",
+      "NODEI": "9",
+      "PrdMIG": "558.2389481"
+    },
+    {
+      "NODEJ": "22",
+      "NODEI": "10",
+      "PrdMIG": "955.7226904"
+    },
+    {
+      "NODEJ": "22",
+      "NODEI": "11",
+      "PrdMIG": "534.6119471"
+    },
+    {
+      "NODEJ": "22",
+      "NODEI": "12",
+      "PrdMIG": "694.1680851"
+    },
+    {
+      "NODEJ": "22",
+      "NODEI": "13",
+      "PrdMIG": "1178.372399"
+    },
+    {
+      "NODEJ": "22",
+      "NODEI": "14",
+      "PrdMIG": "927.8726492"
+    },
+    {
+      "NODEJ": "22",
+      "NODEI": "15",
+      "PrdMIG": "2223.655533"
+    },
+    {
+      "NODEJ": "22",
+      "NODEI": "16",
+      "PrdMIG": "715.5369363"
+    },
+    {
+      "NODEJ": "22",
+      "NODEI": "17",
+      "PrdMIG": "386.8243557"
+    },
+    {
+      "NODEJ": "22",
+      "NODEI": "18",
+      "PrdMIG": "244.4993669"
+    },
+    {
+      "NODEJ": "22",
+      "NODEI": "19",
+      "PrdMIG": "674.3327717"
+    },
+    {
+      "NODEJ": "22",
+      "NODEI": "20",
+      "PrdMIG": "1237.404033"
+    },
+    {
+      "NODEJ": "22",
+      "NODEI": "21",
+      "PrdMIG": "276.9652387"
+    },
+    {
+      "NODEJ": "22",
+      "NODEI": "23",
+      "PrdMIG": "206.4391627"
+    },
+    {
+      "NODEJ": "22",
+      "NODEI": "24",
+      "PrdMIG": "559.0529355"
+    },
+    {
+      "NODEJ": "22",
+      "NODEI": "25",
+      "PrdMIG": "598.1268161"
+    },
+    {
+      "NODEJ": "23",
+      "NODEI": "1",
+      "PrdMIG": "82.4801825"
+    },
+    {
+      "NODEJ": "23",
+      "NODEI": "2",
+      "PrdMIG": "147.2889506"
+    },
+    {
+      "NODEJ": "23",
+      "NODEI": "3",
+      "PrdMIG": "326.0583197"
+    },
+    {
+      "NODEJ": "23",
+      "NODEI": "4",
+      "PrdMIG": "457.7359397"
+    },
+    {
+      "NODEJ": "23",
+      "NODEI": "5",
+      "PrdMIG": "298.4637414"
+    },
+    {
+      "NODEJ": "23",
+      "NODEI": "6",
+      "PrdMIG": "87.75976457"
+    },
+    {
+      "NODEJ": "23",
+      "NODEI": "7",
+      "PrdMIG": "605.7400305"
+    },
+    {
+      "NODEJ": "23",
+      "NODEI": "8",
+      "PrdMIG": "328.8882689"
+    },
+    {
+      "NODEJ": "23",
+      "NODEI": "9",
+      "PrdMIG": "221.2837536"
+    },
+    {
+      "NODEJ": "23",
+      "NODEI": "10",
+      "PrdMIG": "141.3707261"
+    },
+    {
+      "NODEJ": "23",
+      "NODEI": "11",
+      "PrdMIG": "257.2090348"
+    },
+    {
+      "NODEJ": "23",
+      "NODEI": "12",
+      "PrdMIG": "197.5828658"
+    },
+    {
+      "NODEJ": "23",
+      "NODEI": "13",
+      "PrdMIG": "110.6039464"
+    },
+    {
+      "NODEJ": "23",
+      "NODEI": "14",
+      "PrdMIG": "77.79747983"
+    },
+    {
+      "NODEJ": "23",
+      "NODEI": "15",
+      "PrdMIG": "538.4919359"
+    },
+    {
+      "NODEJ": "23",
+      "NODEI": "16",
+      "PrdMIG": "69.77949843"
+    },
+    {
+      "NODEJ": "23",
+      "NODEI": "17",
+      "PrdMIG": "212.0030142"
+    },
+    {
+      "NODEJ": "23",
+      "NODEI": "18",
+      "PrdMIG": "414.1330912"
+    },
+    {
+      "NODEJ": "23",
+      "NODEI": "19",
+      "PrdMIG": "135.7517595"
+    },
+    {
+      "NODEJ": "23",
+      "NODEI": "20",
+      "PrdMIG": "98.75805116"
+    },
+    {
+      "NODEJ": "23",
+      "NODEI": "21",
+      "PrdMIG": "318.3636507"
+    },
+    {
+      "NODEJ": "23",
+      "NODEI": "22",
+      "PrdMIG": "81.05181888"
+    },
+    {
+      "NODEJ": "23",
+      "NODEI": "24",
+      "PrdMIG": "43.03819972"
+    },
+    {
+      "NODEJ": "23",
+      "NODEI": "25",
+      "PrdMIG": "132.1245619"
+    },
+    {
+      "NODEJ": "24",
+      "NODEI": "1",
+      "PrdMIG": "457.9406784"
+    },
+    {
+      "NODEJ": "24",
+      "NODEI": "2",
+      "PrdMIG": "304.6497557"
+    },
+    {
+      "NODEJ": "24",
+      "NODEI": "3",
+      "PrdMIG": "115.4898384"
+    },
+    {
+      "NODEJ": "24",
+      "NODEI": "4",
+      "PrdMIG": "101.2843117"
+    },
+    {
+      "NODEJ": "24",
+      "NODEI": "5",
+      "PrdMIG": "124.9961128"
+    },
+    {
+      "NODEJ": "24",
+      "NODEI": "6",
+      "PrdMIG": "418.8117749"
+    },
+    {
+      "NODEJ": "24",
+      "NODEI": "7",
+      "PrdMIG": "98.10324675"
+    },
+    {
+      "NODEJ": "24",
+      "NODEI": "8",
+      "PrdMIG": "124.3548455"
+    },
+    {
+      "NODEJ": "24",
+      "NODEI": "9",
+      "PrdMIG": "135.4685496"
+    },
+    {
+      "NODEJ": "24",
+      "NODEI": "10",
+      "PrdMIG": "225.4886147"
+    },
+    {
+      "NODEJ": "24",
+      "NODEI": "11",
+      "PrdMIG": "134.5628281"
+    },
+    {
+      "NODEJ": "24",
+      "NODEI": "12",
+      "PrdMIG": "163.8666156"
+    },
+    {
+      "NODEJ": "24",
+      "NODEI": "13",
+      "PrdMIG": "361.9098767"
+    },
+    {
+      "NODEJ": "24",
+      "NODEI": "14",
+      "PrdMIG": "448.7526499"
+    },
+    {
+      "NODEJ": "24",
+      "NODEI": "15",
+      "PrdMIG": "568.7268606"
+    },
+    {
+      "NODEJ": "24",
+      "NODEI": "16",
+      "PrdMIG": "229.47857"
+    },
+    {
+      "NODEJ": "24",
+      "NODEI": "17",
+      "PrdMIG": "87.63401952"
+    },
+    {
+      "NODEJ": "24",
+      "NODEI": "18",
+      "PrdMIG": "57.08584077"
+    },
+    {
+      "NODEJ": "24",
+      "NODEI": "19",
+      "PrdMIG": "157.9807953"
+    },
+    {
+      "NODEJ": "24",
+      "NODEI": "20",
+      "PrdMIG": "796.0939794"
+    },
+    {
+      "NODEJ": "24",
+      "NODEI": "21",
+      "PrdMIG": "62.17916335"
+    },
+    {
+      "NODEJ": "24",
+      "NODEI": "22",
+      "PrdMIG": "241.5624849"
+    },
+    {
+      "NODEJ": "24",
+      "NODEI": "23",
+      "PrdMIG": "46.60746419"
+    },
+    {
+      "NODEJ": "24",
+      "NODEI": "25",
+      "PrdMIG": "133.2175467"
+    },
+    {
+      "NODEJ": "25",
+      "NODEI": "1",
+      "PrdMIG": "370.2299026"
+    },
+    {
+      "NODEJ": "25",
+      "NODEI": "2",
+      "PrdMIG": "538.8314339"
+    },
+    {
+      "NODEJ": "25",
+      "NODEI": "3",
+      "PrdMIG": "475.0634862"
+    },
+    {
+      "NODEJ": "25",
+      "NODEI": "4",
+      "PrdMIG": "410.6076741"
+    },
+    {
+      "NODEJ": "25",
+      "NODEI": "5",
+      "PrdMIG": "470.3230094"
+    },
+    {
+      "NODEJ": "25",
+      "NODEI": "6",
+      "PrdMIG": "369.9779111"
+    },
+    {
+      "NODEJ": "25",
+      "NODEI": "7",
+      "PrdMIG": "441.6483635"
+    },
+    {
+      "NODEJ": "25",
+      "NODEI": "8",
+      "PrdMIG": "548.7089933"
+    },
+    {
+      "NODEJ": "25",
+      "NODEI": "9",
+      "PrdMIG": "469.416796"
+    },
+    {
+      "NODEJ": "25",
+      "NODEI": "10",
+      "PrdMIG": "563.3849223"
+    },
+    {
+      "NODEJ": "25",
+      "NODEI": "11",
+      "PrdMIG": "433.0939936"
+    },
+    {
+      "NODEJ": "25",
+      "NODEI": "12",
+      "PrdMIG": "582.6116995"
+    },
+    {
+      "NODEJ": "25",
+      "NODEI": "13",
+      "PrdMIG": "447.1766789"
+    },
+    {
+      "NODEJ": "25",
+      "NODEI": "14",
+      "PrdMIG": "321.9578724"
+    },
+    {
+      "NODEJ": "25",
+      "NODEI": "15",
+      "PrdMIG": "1483.838513"
+    },
+    {
+      "NODEJ": "25",
+      "NODEI": "16",
+      "PrdMIG": "325.949838"
+    },
+    {
+      "NODEJ": "25",
+      "NODEI": "17",
+      "PrdMIG": "402.2035296"
+    },
+    {
+      "NODEJ": "25",
+      "NODEI": "18",
+      "PrdMIG": "239.3983449"
+    },
+    {
+      "NODEJ": "25",
+      "NODEI": "19",
+      "PrdMIG": "496.1902115"
+    },
+    {
+      "NODEJ": "25",
+      "NODEI": "20",
+      "PrdMIG": "413.5589282"
+    },
+    {
+      "NODEJ": "25",
+      "NODEI": "21",
+      "PrdMIG": "282.3939117"
+    },
+    {
+      "NODEJ": "25",
+      "NODEI": "22",
+      "PrdMIG": "360.5806575"
+    },
+    {
+      "NODEJ": "25",
+      "NODEI": "23",
+      "PrdMIG": "199.5652558"
+    },
+    {
+      "NODEJ": "25",
+      "NODEI": "24",
+      "PrdMIG": "182.8040647"
+    }
+  ]
+}
