@@ -124,7 +124,7 @@
 	// 0 is the start, whereas 1 i the end of each panel.
 	// If you want to put the legend on the left, then use 0.
 	// legendY = 0.5 puts the legend in the middle of the Y Axis.
-	var legendX = 0.80, legendY = 0.2
+	var legendX = 0, legendY = 0
 
 	// id attribute and the name attribute to be used in the tooltip
 	var idAttribute = 'geonum', nameAttribute = 'geoname';
@@ -171,7 +171,7 @@
 	var chartWidth = d3.select('#divMap1')
 	.node().getBoundingClientRect().width,
 	chartHeight = chartWidth * widthheightRatio;
-	var margin = {top: 10, right: 20, bottom: 10, left:20},
+	var margin = {top: 10, right: 10, bottom: 10, left:10},
 	width = chartWidth - margin.right - margin.left,
 	height = chartHeight - margin.top - margin.bottom,
 	histHeight = (chartHeight * .25);
@@ -237,7 +237,7 @@
 			var polygons = data;
 			var proj = d3.geoPath().pointRadius(2);
 			// TODO: change the projection details here below - including specific parameters such as rotation, extent, etc.
-			proj.projection(projection.rotate([104 + 0 / 60, - 40]).fitSize([width, height], polygons));
+			proj.projection(projection.rotate([104 + 0 / 60, - 40]).fitSize([width-(width*0.1), height-(height*0.1)], polygons));
 
 			////////////////////////////////////////////////////
 			// Normalize based multiplyby and divideby values
