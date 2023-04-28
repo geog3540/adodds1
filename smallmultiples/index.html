@@ -124,7 +124,7 @@
 	// 0 is the start, whereas 1 i the end of each panel.
 	// If you want to put the legend on the left, then use 0.
 	// legendY = 0.5 puts the legend in the middle of the Y Axis.
-	var legendX = 0, legendY = 0
+	var legendX = 0.83, legendY = 0
 
 	// id attribute and the name attribute to be used in the tooltip
 	var idAttribute = 'geonum', nameAttribute = 'geoname';
@@ -139,7 +139,7 @@
 	// att1format: enter the d3.format string to display the variables in the format you like
 	// Check this link on how to specify the desired format:
 	// https://observablehq.com/@d3/d3-format
-	var att1 = 'med_hh_inc', att1alias = 'Median Household Income', att1format = '.0f',
+	var att1 = 'med_hh_inc', att1alias = 'Median Household Income', att1format = '.2s',
 	att2 = 'med_yr_blt', att2alias =  'Median Year Built', att2format = '.0f',
 	att3 = 'owned', att3alias = '% Owned Housing Units', att3format = '.0f',
 	att4 = 'rented', att4alias = '% Rented Housing Units', att4format = '.0f';
@@ -237,7 +237,7 @@
 			var polygons = data;
 			var proj = d3.geoPath().pointRadius(2);
 			// TODO: change the projection details here below - including specific parameters such as rotation, extent, etc.
-			proj.projection(projection.rotate([104 + 0 / 60, - 40]).fitSize([width-(width*0.1), height-(height*0.1)], polygons));
+			proj.projection(projection.rotate([104 + 0 / 60, - 40]).fitSize([width-(width*0.08), height-(height*0.08)], polygons));
 
 			////////////////////////////////////////////////////
 			// Normalize based multiplyby and divideby values
